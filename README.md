@@ -45,7 +45,6 @@ Keras(TF backend) implementation of unet for RGB pictures.
 - run ```python unet_leather.py```
 - run ```python predict_leather.py```
 - run ```python test2mask2pic.py```
-After 50 epochs training, loss goes to about 4e-04 and acc is 0.9644.
 
 ![img/1test.png](img/1camvid.png)
 ![img/1label.png](img/1label.png)
@@ -55,3 +54,4 @@ Unet is mostly used in medical areas. I used this model for semantic segmentatio
 
 ## Reference
 https://github.com/zhixuhao/unet
+https://github.com/ShawDa/unet-rgb
