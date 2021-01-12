@@ -53,5 +53,5 @@ Keras(TF backend) implementation of unet for RGB pictures.
 Unet is mostly used in medical areas. I used this model for semantic segmentation of satellite remote sensing images in real work and the result is not bad. I think one of the reason is that it's a coarse-grained task like medical image analysis. Of course, enough labeled images are necessary.
 
 ## Reference
-https://github.com/zhixuhao/unet
-https://github.com/ShawDa/unet-rgb
+- https://github.com/zhixuhao/unet
+- https://github.com/ShawDa/unet-rgb
