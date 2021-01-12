@@ -12,21 +12,21 @@ Keras(TF backend) implementation of unet for RGB pictures.
 - Keras
 
 ### Data
-Leather Dataset: 
-Input images: resize (512x512x3)
-Mask images: resize (512x512)
+- Leather Dataset: 
+- Input images: resize (512x512x3)
+- Mask images: resize (512x512)
 
-```leather/train``` Input images for train folder.
-```leather/trainannot``` Mask images for train folder.
-```leather/test``` Input images for test folder.
-```leather/testannot``` Mask images for test folder.
-```leather/val``` Input images for validate folder.
-```leather/valannot``` Mask images for validate folder.
-```npydata/``` save the .npy file from ```python data_leather.py```
-```results/``` save the .npy & leather.txt file from ```python predict_leather.py```
-```results/val``` save the mask image from predict or ```python test2mask2pic.py```
+- ```leather/train``` Input images for train folder.
+- ```leather/trainannot``` Mask images for train folder.
+- ```leather/test``` Input images for test folder.
+- ```leather/testannot``` Mask images for test folder.
+- ```leather/val``` Input images for validate folder.
+- ```leather/valannot``` Mask images for validate folder.
+- ```npydata/``` save the .npy file from ```python data_leather.py```
+- ```results/``` save the .npy & leather.txt file from ```python predict_leather.py```
+- ```results/val``` save the mask image from predict or ```python test2mask2pic.py```
 
-for CamVid Dataset:https://github.com/preddy5/segnet/tree/master/CamVid
+- for CamVid Dataset:https://github.com/preddy5/segnet/tree/master/CamVid
 
 ### Howtouse
 - extract downloaded data to corresponding directories
@@ -35,7 +35,6 @@ for CamVid Dataset:https://github.com/preddy5/segnet/tree/master/CamVid
 - run ```python test2mask2pic.py``` to get test results(pictures)
 
 ### Results
-After training about 30 epochs, loss goes to about 0.005.The results seems OK! But the edges look a bit rough. I think that is Unet's own limitation.
 
 ![img/0test.jpg](img/0test.jpg)
 
